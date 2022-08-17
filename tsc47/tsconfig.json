@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "esnext",
+    "skipLibCheck": true,
+    "removeComments": false,
+    "noImplicitReturns": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "sourceMap": true,
+    "target": "es2019",
+    "lib": ["es2019", "dom"],
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "config.json": ["config.json"]
+    }
+  },
+  "include": ["./*.ts"],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
